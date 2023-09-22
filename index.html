@@ -1,0 +1,62 @@
+<!--https://open.spotify.com/playlist/4WNuBMqQMlMbDjev3vZttM-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spotify : Your Playlist</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="brand"><img src="logo.webp" alt="Spotify">Spotify</li>
+			<li>Home</li>
+			<li>About</li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<div class="songList">
+			<h1>goog - Playlist</h1>
+			<div class="songItemContainer">
+				<div class="songItem">
+					<img src="withoutme.png" alt="1">
+					<span>Without Me - Eminem</span>
+					<span class="songlistplay"><span class="timestamp">4:57<i class="far fa-play-circle"></i></span></span>
+				</div>
+
+				<div class="songItem">
+					<img src="banditrmx.png" alt="2">
+					<span>Bandits(Remix) - Wonder & Yun Head</span>
+					<span class="songlistplay"><span class="timestamp">3:45<i class="far fa-play-circle"></i></span></span>
+				</div>
+
+				<div class="songItem">
+					<img src="welcometotheinternet.png" alt="3">
+					<span>Welcome To The Internet - Bo Burnham</span>
+					<span class="songlistplay"><span class="timestamp">4:35<i class="far fa-play-circle"></i></span></span>
+				</div>
+			</div>
+		</div>
+		<div class="songBanner"></div>
+	</div>
+
+	<div class="bottom">
+		<input type="range" name="range" id="myProgressBar" min="0" value=0 max="100">
+		<div class="icons">
+			<!--fontawesome icons-->
+			<i class="fas fa-3x fa-step-backward fa-bounce"></i>
+			<i class="far fa-3x fa-play-circle fa-fade" id="masterPlay"></i>
+			<i class="fas fa-3x fa-step-forward fa-bounce"></i>
+
+		</div>
+		<div class="songInfo">
+			<img src="playing.gif" width="42px" id="playingGif">Without Me - Eminem
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/b273e9802a.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
